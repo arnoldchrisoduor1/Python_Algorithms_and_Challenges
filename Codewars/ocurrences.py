@@ -11,3 +11,9 @@ def solution(order, max_e):
             result.append(num)
 
     return result
+
+def solution2(order, max_e):
+    ans = []
+    for o in order:
+        if ans.count(o) < max_e: ans.append(o)
+    return ans
