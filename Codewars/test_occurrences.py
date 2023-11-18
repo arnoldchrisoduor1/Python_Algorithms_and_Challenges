@@ -8,7 +8,7 @@ class TestDeleteNth(unittest.TestCase):
         self.assertEqual(result, [1, 2, 3, 1, 2, 3])
 
     def test_delete_nth_example_2(self):
-        result = solution([20, 37, 20, 21], 1)
+        result = solution([20, 37, 20, 21], 2)
         self.assertEqual(result, [20, 37, 21])
 
     def test_delete_nth_repeated(self):
